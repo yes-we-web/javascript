@@ -1,11 +1,12 @@
-# Plusieurs types de formats de questions
-## La question type "Jéopardy"  
+# Plusieurs types de formats de questions  
+
+## La question type "Jéopardy!" 
  
-Un réponse est proposé, à vous de trouver trouver la question.  
+Un réponse est proposés, à vous de trouver la question.  
     
 Ex : réponse : l'ECMA. Question : Quel est l'organisme en charge de poser les normes JAVASCRIPT?
 
-## La question a choix mutiples  
+## La question à choix multiples  
   
 Ex : * Qu'es-ce que le "use strict"?  
   
@@ -15,7 +16,7 @@ Ex : * Qu'es-ce que le "use strict"?
   
 ## La question à réponse "puzzle"  
   
-Une question est posée et le but c'est de remettre en ordre la réponse.  
+Une question est posée et le but est de remettre en ordre la réponse.  
   
 Ex: structurer ce code JAVASCRIPT:  
 
