@@ -60,9 +60,9 @@ _Soit avec la méthode dite **external** , c'est à dire d'insérer le fichier v
   - Réponse : _Le mot-clé **const**._
 
 * Pour bien nommé vos **variable**, quelle méthode faut-il utiliser ?
-  1. La kebabCase
-  2. Le camelCase
-  3. Le snakeCase
+  1.La kebabCase
+  2.Le camelCase
+  3.Le snakeCase
   
   - Réponse : B)  _Le **camelCase**_
 
