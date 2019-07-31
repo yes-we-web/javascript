@@ -44,20 +44,20 @@ _Le nom d'origine de JavaScript était **LiveScript**, il a peut-être été mod
   - Réponse : _Il en existe_ **2**.
 
 * Comment lié un fichier **JavaScript** à un fichier _HTML_ ?
-  - Réponse : _Soit avec la méthode dite **inline** , c'est à dire en insérant directement du code JavaScript vià une balise _<script></script>_.
-_Soit avec la méthode dite **external** , c'est à dire d'insérer le fichier via une balise_ **<script type="text/javascript" src="monscript.js"></script>**.
+  - Réponse : _Soit avec la méthode dite **inline** , c'est à dire en insérant directement du code JavaScript vià une balise _`<script></script>`_.
+_Soit avec la méthode dite **external** , c'est à dire d'insérer le fichier via une balise_ `<script type="text/javascript" src="monscript.js"></script>`.
 
 * Quel est le but de la fonction "_alert_"?
   - Réponse : _La fonction **alert** sert à afficher un message à l'utilisateur dans la fenêtre courante_.
 
 * Completez moi cette définition avec le ou les bons termes : Une variable est un “____” pour y stocker de la _____ .
-  - Réponse : Une variable est "_entrepôt nommé_" pour y stocker de la _donnée_.
+  - Réponse : _Une variable est "**entrepôt nommé**" pour y stocker de la **donnée**_.
 
 * Donnez moi les **3 mots-clés** servant à créer une **variable**.
   - Réponse : **Let, Var _et_ Const**.
 
 * Quel **mot-clé** faut-il utiliser pour créer une variable birthdayDate ?
-  - Réponse : _const_
+  - Réponse : _Le mot-clé **const**._
 
 * Pour bien nommé vos **variable**, quelle méthode faut-il utiliser ?
 A) La kebabCase
