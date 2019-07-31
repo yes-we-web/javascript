@@ -32,7 +32,7 @@ Désordre à donner pour assemblage :
 3. return nombre * nombre  
 4. ;  
   
-##Autres questions possibles :  
+## Autres questions possibles :  
  
 * Quelles sont les différences entre **Java** et **JavaScript**  
   
