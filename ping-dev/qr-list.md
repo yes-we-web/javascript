@@ -1,9 +1,9 @@
-# Plusieurs types de formats de questions
+# Plusieurs types de format de questions
 ## La question type "Jéopardy"  
  
-Un réponse est proposé, à vous de trouver trouver la question.  
+Un réponse est proposée, à vous de trouver la question.  
     
-Ex : réponse : l'ECMA. Question : Quel est l'organisme en charge de poser les normes JAVASCRIPT?
+Ex : réponse : TC-39 de l'ECMA International. Question : Quel est l'organisme en charge de poser les normes JavaScript?
 
 ## La question a choix mutiples  
   
@@ -15,9 +15,9 @@ Ex : * Qu'es-ce que le "use strict"?
   
 ## La question à réponse "puzzle"  
   
-Une question est posée et le but c'est de remettre en ordre la réponse.  
+Une question est posée et le but est de remettre en ordre la réponse.  
   
-Ex: structurer ce code JAVASCRIPT:  
+Ex: structurer ce code JavaScript:  
 
 Réponse final à donner :  
 ```js
@@ -59,7 +59,7 @@ _Soit avec la méthode dite **external** , c'est à dire d'insérer le fichier v
 * Quel **mot-clé** faut-il utiliser pour créer une variable birthdayDate ?
   - Réponse : _Le mot-clé **const**._
 
-* Pour bien nommé vos **variable**, quelle méthode faut-il utiliser ?
+* Pour bien nommé vos **variables**, quelle méthode faut-il utiliser ?
   
 1. La kebabCase
 2. Le camelCase
