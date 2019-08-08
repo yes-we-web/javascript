@@ -202,7 +202,7 @@ l'élève : il reste 1
 le prof : c'est bien ça donc je vous laisse faire les autres exemples.
 
 
-### Exponentiation ** ou Puissance : le petit prince.
+### Puissance ou Exponentiation ** : le petit prince.
 
 C'est le petit dernier! la **
 On lui a donné un certain pouvoir. il peut doubler, tripler, quadrupler etc... la monnaie de ta pièce.
@@ -220,6 +220,55 @@ allez encore un peu d'effort.
 Il n'a pas pris la place du roi et de la reine "()"
 alert( 4 ** (1/2) ); // 2 (power of 1/2 is the same as a square root, that's maths)
 alert( 8 ** (1/3) ); // 2 (power of 1/3 is the same as a cubic root)
+
+
+### Incrément/Diminution ou Increment/Decrement : le trésorier
+
+Il a la permission d'ajouter 1 (+1) en JS **++** ou de soustraire 1 (-1) **--**.
+C'est le comptable.
+
+>l'élève : c'est aussi simple que ça
+Le prof : attendez la suite !!!!
+
+2 exemples :
+
+let counter = 2;
+counter++;
+alert( counter ); // 2 + 1 = 3
+
+let counter = 2;
+counter--;        //
+alert( counter ); // 2 - 1 = 1
+
+ATTENTION : IL NE PEUT PAS SE SEPARER DE LA VARIABLE, LA MALLE ou LA CAISSE si vous préférez!!!
+5-- ne fonctionne pas
+
+Le trésorier en mode ++ et -- peut se placer où il veut à côté de sa caisse, LA VARIABLE :
+* s'il est à **gauche** c'est le **préfixe *prefix***
+* s'il est à **droite** c'est le **postfix**
+
+> l'élève : mais alors quelle différence y-a-t-il, s'il y en a une ?
+
+Tout les opérateurs retourne une valeur mais à la différence près que :
+* Le "prefix", placé avant, va rendre la nouvelle valeur
+* le "postix", placé après, va rendre l'ancienne valeur
+
+PREFIX
+let counter = 1;
+alert( ++counter ); // 2
+J'ai besoin de voir tout de suite le résultat.
+
+POSTFIX
+let counter = 1;
+alert( counter++ ); // 1
+J'ai besoin de voir l'ancien résultat.
+
+>l'élève : mais à quoi ça sert ?
+le prof : pas trop vite, tout prendra son sens en utilisant JAVASCRIPT
+
+On espère que l'histoire vous a plus.
+
+L'équipe Javascript.
 
 
 
