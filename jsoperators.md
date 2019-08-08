@@ -202,6 +202,26 @@ l'élève : il reste 1
 le prof : c'est bien ça donc je vous laisse faire les autres exemples.
 
 
+### Exponentiation ** ou Puissance : le petit prince.
+
+C'est le petit dernier! la **
+On lui a donné un certain pouvoir. il peut doubler, tripler, quadrupler etc... la monnaie de ta pièce.
+
+Si b = 2
+et que l'on veut doubler (a) alors :
+alert( 2 ** 2 ); // 4  (2 * 2)
+si b = 3 et que l'on veut le tripler alors :
+alert( 2 ** 3 ); // 8  (2 * 2 * 2)
+alert( 2 ** 4 ); // 16 (2 * 2 * 2 * 2)
+
+> le prof : ce n'est toujours pas fini
+allez encore un peu d'effort.
+
+Il n'a pas pris la place du roi et de la reine "()"
+alert( 4 ** (1/2) ); // 2 (power of 1/2 is the same as a square root, that's maths)
+alert( 8 ** (1/3) ); // 2 (power of 1/3 is the same as a cubic root)
+
+
 
 
 
