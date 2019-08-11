@@ -1,18 +1,34 @@
-# Lisez-moi !
----
-### Utilité des dossiers
+Bonjour à tous, :hand:
 
-1. **twitter :** Dossier servant au groupe twitter, regroupant l'ensemble des données utile à leur tweet.
-&nbsp; 
-2. **ping-dev :** Même utilité que celui de _Twitter_ mais cette fois-ci pour le groupe de ping-dev
-&nbsp;
-3. **doc-js :** Comporte toutes la documentation concernant JavaScript (Tuto, Informations, Aide, etc...)
---------------------------------------------------------------------
+Bienvenue à toi, jeune padawan ! Tu es novice en javascript ou tu veux tester tes connaissants et acquérir la Force alors tu es au bon endroit ! Prends place, fais comme chez toi (un petit café ou un thé peut-être?)...
+
+Tu trouveras ici toutes la Documentation concernant Javascript sous forme de dossier : 
+- __Des tutos__ 
+- Une rubrique : __"Une erreur, une solution !"__ Cette page est dédiée aux erreurs rencontrées lors de notre parcours de formation. Le but de cette page est de partager les expériences et de soumettre les solutions pour les résoudre le plus rapidement possible.  
+- __Des informations utiles__(raccourcies, quizz, des aides, ...)
+
+De quoi t'amuser en apprennant ! C'est tout le mal qu'on te souhaite ... :smiley:
+
+__*NB : N'hésitez pas à mettre des recommandations ou des points d'importances même les plus évidentes !  Merci :)*__
+
+Commençont par le commencement : 
+
+## Sommaire : 
+1. Présentation de Javascript
+- C'est quoi Javascript ? 
+- Historique 
+
+2. Principaux avantages du Javascript 
+- Pour l'utilisateur
+- Pour le développeur
+- Exemples de restrictions
+
 
 # Présentation de JavaScript  
   
 
 ## C'est quoi JavaScript?
+
 JavaScript est un langage de script qui permet d'animer de façon dynamique le contenu d'une page web (ex: animer des images, variables, éxécution de commande par clic,etc.). 
 Comme le langage HTML et CSS, JavaScript fait parti du langage front-end (langage permettant la réalisation "visuelle" d'une page web grâce à un navigateur) mais aussi du back-end (langage lié à l'aspect technique et fonctionnel d'une page web).
 
@@ -75,31 +91,3 @@ Source principale: http://javascript.info/js
 
 
 ------------------------------
-
-# Une erreur, une solution ! 
-
-Cette page est dédiée aux erreurs rencontrées lors de notre parcours de formation.  
-
-Le but de cette page est de partager les expériences et de soumettre les solutions pour les résoudre le plus rapidement possible.  
-
-N'hésitez pas à mettre des recommandations ou des points d'importances même les plus évidentes !  
-
-Merci :)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
