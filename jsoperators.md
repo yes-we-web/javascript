@@ -1,19 +1,19 @@
 # INTRODUCTION
 
-Vous avez tous était à l'école, n'est-ce pas ? Vous avez donc tous étudié les mathématiques. 
-Avez-vous aimez ça ?
+Vous avez tous été à l'école, n'est-ce pas ? Vous avez donc tous étudié les mathématiques. 
+Avez-vous aimé ça ?
 
-* si la réponse est **oui**, vous allez replonger avec plaisir dans les calculs. Mais aussi découvrir et apprendre d'autres conceptes.
+* si la réponse est **oui**, vous allez replonger avec plaisir dans les calculs. Mais aussi découvrir et apprendre d'autres concepts.
 
-* si la réponse est **non**, alors s'est l'occasion d'enterrer la hache de guerre et finalement faire la paix avec les **MATHS!!!**.
+* si la réponse est **non**, alors c'est l'occasion d'enterrer la hache de guerre et finalement faire la paix avec les **MATHS!!!**.
 
-Nous mettrons aussi tous les termes techniques en Anglais pour qu'il devienne aussi familié dans cette langue.
+Nous mettrons aussi tous les termes techniques en anglais pour qu'ils deviennent aussi familiés dans cette langue.
 
 **LET'S START!!!**
 
 ## Quelques mots de vocabulaire.
 
-**l'opérateur ou *"operator"*** est symbole arithmétique pour effect l'**opération** de calcul : **+, -, x, /, =**
+**l'opérateur ou *"operator"*** est symbole arithmétique pour effectuer l'**opération** de calcul : **+, -, x, /, =**
 
 >Allez en coeur, comme à l'école !!!
 * 1 + 1  = 2
@@ -23,7 +23,7 @@ c'est tout ?
 
 décomposons !
 
-**l'opérant ou *"operand"*** ou arguments sont les 2 éléments qui vont être calculer. dans les exemples ci-dessus :
+**l'opérant ou *"operand"*** ou arguments sont les 2 éléments qui vont être calculés. dans les exemples ci-dessus :
 * les deux 1,
 * le 3 et le 6,
 * le 9 et le 3.
@@ -48,10 +48,10 @@ Maintenant entrons dans l'univers JavaScript. #YESWEWEB!!!!
   
  (ce serait plus amusant en vidéo)
  > l'élève : "vous êtes sûr!! Ce n'est pas ce qu'on m'a appris à l'école!!"
- le prof : oui c'est pour ça qu'on parle de la 1ére caractérique spécifique binary+.
+ le prof : oui c'est pour ça que l'on parle de la 1ére caractérique spécifique binary+.
  l'élève : mais alors comment fait-on pour reconnaître si on doit concaténer ?
- le prof : mes tes lunettes, tu n'a as vu les petits '' ?
- l'élève : Mais c'est bien sûr, j'ai déjà vu cette notion. c'est parce qu'on a affaire a du texte ou "string".
+ le prof : mes tes lunettes, tu n'as pas vu les petits '' ?
+ l'élève : Mais c'est bien sûr, j'ai déjà vu cette notion. c'est parce qu'on affaire à du texte ou "string".
  Ca se complique !
 
     * alert( 1 + 2 + 3) = 6
@@ -64,7 +64,7 @@ Maintenant entrons dans l'univers JavaScript. #YESWEWEB!!!!
   2. Le second ? Au 1er plus (+) le Javascript veut calculer 1 + 2. Il détecte 2 chiffres alors il additionne 1 et 2 pour donner 3. Au 2ème plus (+) il détecte un chiffre 3 (issue du premier calcul) et un "string" alors il passe en mode "concatenation" et donne le résultat 33.
   3. Et pour finir, le troisième. Au 1er (+) il détecte un chiffre et un "string" donc il concatène pour donner '12' qui devient lui-même un string. Puis au 2ème + il détecte à nouveau un string à gauche et un chiffre à droite et donc il continue de concaténer en '123'.
 
-**RETENEZ LE BINAIRE ou "BINARY" EST UN CHEVALIER !!!! il sait additionner ou contatener**
+**RETENEZ LE BINAIRE ou "BINARY" EST NOTRE CHEVALIER !!!! il sait additionner ou contatener**
 
 
 ### Unitary + : LE MAGICIEN
@@ -72,7 +72,7 @@ Maintenant entrons dans l'univers JavaScript. #YESWEWEB!!!!
 Vous souvenez-vous du vocabulaire ?
 Il y a un deuxième type de +, celui qui s'associe à une valeur : +1 par exemple. on le surnome le magicien **unitaire ou*unitary***.
 
-Celui-ci n'a pas d'influence sur les chiffres, mais des que la valeur n'est pas numérique alors il devient magicien et transforme la valeur en nombre, type "number".
+Celui-ci n'a pas d'influence sur les chiffres, mais dès que la valeur n'est pas numérique alors il devient magicien et transforme la valeur en nombre, type "number".
 
 > L'élève : UN EXEMPLE S'IL VOUS PLAIT !!!
 Le prof : oui oui d'accord ça vient.
@@ -83,12 +83,12 @@ alert( +x ); // 1
 let y = -2;
 alert( +y ); // -2
 
-// ET COMME PART MAGIE !!!!
-alert( +true ); // 1            // c'est auss alert( number(true))  - C'est trop long!!!!
+// ET COMME PAR MAGIE !!!!
+alert( +true ); // 1            // c'est aussi alert( number(true))  - C'est trop long!!!!
 alert( +"" );   // 0
 
 
-Maintenant, image que tu dois prendre des valeur dans un HTML, la plupart de temps en format texte.
+Maintenant, imagine que tu dois prendre des valeur dans un HTML, la plupart de temps en format texte.
 
 Avant l'effet magique de ***unitaire ou *unitary***.
 
@@ -101,25 +101,25 @@ let apples = "2";
 let oranges = "3";
 alert( +pommes + +oranges ); // 5
 
-le magicien transforme la pomme 2, et l'orange en 3, le calcul de la somme est donc possible 2+3=5.
+le magicien transforme pommes en 2, et oranges en 3, le calcul de la somme est donc possible 2+3=5.
 
-> l'élève : et bien voilà. on revient en place primaire et la boucle est bouclée.
-Le prof : attend la leçon est loin d'être terminé. restez concentré, ça se complique.
+> l'élève : et bien voilà! on revient en place primaire et la boucle est bouclée.
+Le prof : attend la leçon est loin d'être terminée. restez concentrés, ça se complique.
 
 **RETENEZ L'UNAIRE ou "UNARY" EST UN MAGICIEN !!!! il transforme en nombre**
 
 
 ### Priorité d'opérateur ou "operator precedence" : LA GUERRE DES CHEFS.
 
-ou la guerre des chefs!!!! ou C'est qui le patron!!! Qui est le roi !!!
+ou la guerre des chefs!!!! Ou c'est qui le patron!!! Ou qui est le roi !!!
 
 Allez, revenons sur les bancs de l'école.
 
 >le prof : calculez moi : 1 + 2 * 3 = ??
 l'élève : 7!!
-Le prof : oui c'est ça la * est trop forte, elle l'emporte pour faire en premier 2 * 3 = 6 puis 1 + 6 = 7.
+Le prof : oui c'est ça la *"multiplication" est trop forte, elle l'emporte pour faire en premier 2 * 3 = 6 puis 1 + 6 = 7.
 
-En d'autre terme le * est PRIORITAIRE.
+En d'autre terme la multiplication est PRIORITAIRE.
 
 >le prof : calculez moi : (1 + 2) *3 = ??
 l'élève : 7!!
@@ -144,7 +144,7 @@ Et le petit dernier : pourquoi est-il à part ?
 
 C'est qui lui ? 
 
-c'est **l'opérateur ou *opérator "="***. Autant vous dire il n'a pas l'intention d'être le chef lui, en effet il ne fait pas le poid.
+c'est aussi un **opérateur ou *opérator "="***. Autant vous dire il n'a pas l'intention d'être le chef lui, en effet il ne fait pas le poid.
 
 Il arrive pour servir le résultat.
 
@@ -156,17 +156,17 @@ alert( a ); // 4
 alert( b ); // 4
 alert( c ); // 4
 
-Pour eux la loi des priorités change : de droite à gauche c=, puis, b=, puis a= pour de toute façon donner le même résultat.
+Pour eux la loi des priorités change : de droite à gauche c=, puis, b=, puis a= pour de tout façon donner le même résultat.
 
 La priorité est aussi de haut en bas :
 
 let a = 1;
 let b = 2;
-Le roi et la reine () demande un service et appelle binaire + le chevalier servant :
-le serviteur apport le résultat de 3.
+let c = 3 - (a = b + 1);
+Le roi et la reine () demande un service et appelle binaire +, le chevalier servant :
+le serviteur apporte le résultat de 1 + 2 = 3.
 Alors a = 3, c'est le nouveau résultat.
 alert( a ); // 3
-let c = 3 - (a = b + 1);
 Puis 3 - 3 = 0
 alert( c ); // 0
 
@@ -188,23 +188,21 @@ le prof : ahahaha!! mais pas de tout.
 l'élève : :-(
 Le prof : c'es le **restant ou *remainder***
 
-Il ramasse les restes après le passage **des divisions "/", les guerriers coupeur de tête.**
+Il ramasse les restes après le passage **des divisions "/", les guerriers coupeur de têtes.**
 
 > l'élève : un exemple please !!!
 
-alert( 5 % 2 ); // 1 is a remainder of 5 divided by 2
-alert( 8 % 3 ); // 2 is a remainder of 8 divided by 3
-alert( 6 % 3 ); // 0 is a remainder of 6 divided by 3
+alert( 5 % 2 ); // 1 
 
-> le prof : il suffit de poser la division pour connaitre le résultat.
-faisons le premier : combien de fois 2 y-a-t-il dans 5 ? 2, car 2 * 2 = 4. Donc combiem reste-il ?
+> le prof : il suffit de poser la division pour connaître le résultat.
+faisons l'exemple: combien de fois 2 y-a-t-il dans 5 ? 2, car 2 * 2 = 4. Donc combiem reste-il ?
 l'élève : il reste 1
-le prof : c'est bien ça donc je vous laisse faire les autres exemples.
+le prof : c'est bien ça.
 
 
-### Puissance ou Exponentiation ** : le petit prince.
+### Puissance ou Exponentiation ** : LE PETIT PRINCE.
 
-C'est le petit dernier! la **
+C'est le petit dernier!  **
 On lui a donné un certain pouvoir. il peut doubler, tripler, quadrupler etc... la monnaie de ta pièce.
 
 Si b = 2
@@ -218,11 +216,11 @@ alert( 2 ** 4 ); // 16 (2 * 2 * 2 * 2)
 allez encore un peu d'effort.
 
 Il n'a pas pris la place du roi et de la reine "()"
-alert( 4 ** (1/2) ); // 2 (power of 1/2 is the same as a square root, that's maths)
-alert( 8 ** (1/3) ); // 2 (power of 1/3 is the same as a cubic root)
+alert( 4 ** (1/2) ); // 2 
+alert( 8 ** (1/3) ); // 2 
 
 
-### Incrément/Diminution ou Increment/Decrement : le trésorier
+### Incrément/Diminution ou Increment/Decrement : LE TRESORIER.
 
 Il a la permission d'ajouter 1 (+1) en JS **++** ou de soustraire 1 (-1) **--**.
 C'est le comptable.
@@ -241,13 +239,13 @@ counter--;        //
 alert( counter ); // 2 - 1 = 1
 
 ATTENTION : IL NE PEUT PAS SE SEPARER DE LA VARIABLE, LA MALLE ou LA CAISSE si vous préférez!!!
-5-- ne fonctionne pas
+5-- ne fonctionne pas.
 
 Le trésorier en mode ++ et -- peut se placer où il veut à côté de sa caisse, LA VARIABLE :
 * s'il est à **gauche** c'est le **préfixe *prefix***
 * s'il est à **droite** c'est le **postfix**
 
-> l'élève : mais alors quelle différence y-a-t-il, s'il y en a une ?
+> l'élève : mais alors quelle différence y-a-t-il, s'il y en a une bien sûr ?
 
 Tout les opérateurs retourne une valeur mais à la différence près que :
 * Le "prefix", placé avant, va rendre la nouvelle valeur
@@ -269,15 +267,3 @@ le prof : pas trop vite, tout prendra son sens en utilisant JAVASCRIPT
 On espère que l'histoire vous a plus.
 
 L'équipe Javascript.
-
-
-
-
-
-
-
-
-
-
-
-
