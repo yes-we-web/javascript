@@ -51,7 +51,7 @@ Maintenant entrons dans l'univers JavaScript. #YESWEWEB!!!!
  le prof : oui c'est pour ça que l'on parle de la 1ére caractérique spécifique binary+.
  l'élève : mais alors comment fait-on pour reconnaître si on doit concaténer ?
  le prof : mes tes lunettes, tu n'as pas vu les petits '' ?
- l'élève : Mais c'est bien sûr, j'ai déjà vu cette notion. c'est parce qu'on affaire à du texte ou "string".
+ l'élève : Mais c'est bien sûr, j'ai déjà vu cette notion. c'est parce qu'on a affaire à du texte ou "string".
  Ca se complique !
 
     * alert( 1 + 2 + 3) = 6
@@ -88,7 +88,7 @@ alert( +true ); // 1            // c'est aussi alert( number(true))  - C'est tro
 alert( +"" );   // 0
 
 
-Maintenant, imagine que tu dois prendre des valeur dans un HTML, la plupart de temps en format texte.
+Maintenant, imagine que tu dois prendre des valeurs dans un HTML, la plupart de temps en format texte.
 
 Avant l'effet magique de ***unitaire ou *unitary***.
 
@@ -119,7 +119,7 @@ Allez, revenons sur les bancs de l'école.
 l'élève : 7!!
 Le prof : oui c'est ça la *"multiplication" est trop forte, elle l'emporte pour faire en premier 2 * 3 = 6 puis 1 + 6 = 7.
 
-En d'autre terme la multiplication est PRIORITAIRE.
+En d'autres termes la multiplication est PRIORITAIRE.
 
 >le prof : calculez moi : (1 + 2) *3 = ??
 l'élève : 7!!
@@ -144,7 +144,7 @@ Et le petit dernier : pourquoi est-il à part ?
 
 C'est qui lui ? 
 
-c'est aussi un **opérateur ou *opérator "="***. Autant vous dire il n'a pas l'intention d'être le chef lui, en effet il ne fait pas le poid.
+c'est aussi un **opérateur ou *opérator "="***. Autant vous dire il n'a pas l'intention d'être le chef lui, en effet il ne fait pas le poids.
 
 Il arrive pour servir le résultat.
 
@@ -156,14 +156,14 @@ alert( a ); // 4
 alert( b ); // 4
 alert( c ); // 4
 
-Pour eux la loi des priorités change : de droite à gauche c=, puis, b=, puis a= pour de tout façon donner le même résultat.
+Pour eux la loi des priorités change : de droite à gauche c=, puis, b=, puis a= pour de toute façon donner le même résultat.
 
 La priorité est aussi de haut en bas :
 
 let a = 1;
 let b = 2;
 let c = 3 - (a = b + 1);
-Le roi et la reine () demande un service et appelle binaire +, le chevalier servant :
+Le roi et la reine () demandent un service et appellent binaire +, le chevalier servant :
 le serviteur apporte le résultat de 1 + 2 = 3.
 Alors a = 3, c'est le nouveau résultat.
 alert( a ); // 3
@@ -188,7 +188,7 @@ le prof : ahahaha!! mais pas de tout.
 l'élève : :-(
 Le prof : c'es le **restant ou *remainder***
 
-Il ramasse les restes après le passage **des divisions "/", les guerriers coupeur de têtes.**
+Il ramasse les restes après le passage **des divisions "/", les guerriers coupeurs de têtes.**
 
 > l'élève : un exemple please !!!
 
@@ -247,7 +247,7 @@ Le trésorier en mode ++ et -- peut se placer où il veut à côté de sa caisse
 
 > l'élève : mais alors quelle différence y-a-t-il, s'il y en a une bien sûr ?
 
-Tout les opérateurs retourne une valeur mais à la différence près que :
+Tous les opérateurs retournent une valeur mais à la différence près que :
 * Le "prefix", placé avant, va rendre la nouvelle valeur
 * le "postix", placé après, va rendre l'ancienne valeur
 
