@@ -74,6 +74,17 @@ Néanmoins ces  restrictions sont faite pour la sécurité des informations priv
 Source principale: http://javascript.info/js
 
 
+------------------------------
+
+# Une erreur, une solution ! 
+
+Cette page est dédiée aux erreurs rencontrées lors de notre parcours de formation.  
+
+Le but de cette page est de partager les expériences et de soumettre les solutions pour les résoudre le plus rapidement possible.  
+
+N'hésitez pas à mettre des recommandations ou des points d'importances même les plus évidentes !  
+
+Merci :)
 
 
 
