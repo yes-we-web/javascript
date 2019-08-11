@@ -1,0 +1,52 @@
+# Les variables
+
+Bienvenue jeunes recrues dans l'usine JavaScript! C'est votre premier jour donc on va vous expliquer comment ça marche ici !
+
+Pour pouvoir travailler en JavaScript, il est nécessaire de pouvoir stocker l’information sur laquelle on veux travailler. Par exemple, impossible de pouvoir manipuler une liste de noms si la liste elle-même n’est pas présente dans le programme. Pour faire plus simple, la machine "JavaScript" ne peut utiliser une information que si elle à une place, un espace bien à elle. Une boîte.
+
+Les variables nous permettent de créer ces boîtes nommées afin d’y insérer les données désirées. On empaquette l'info avant de la donner gentiment !
+
+On créait (ou déclare) une variable via le mot-clé let :
+
+__ let message
+
+On peut sauvegarder une donnée dans la variable grâce à l’opérateur d’assignation =
+
+let message;
+message = ‘Hello’;  // 'Hello' est assigné à la variable 'message' __
+
+La chaîne de caractères (ou string) est maintenant sauvegarder dans la variable. On peut y accéder en appelant la variable par son nom et elle vous indiquera avec joie ce qui est contenue à l'intérieur !
+
+__ let message;
+message = 'Hello';
+alert(message); // affiche le contenu de la variable __
+
+Afin d'être plus concis, on peut à la fois déclarer une variable et assigner une valeur à cette variable. La plupart du temps on utilise une variable pour y mettre quelque chose dedans, alors ni une ni deux faisons d'une pierre deux coups !
+
+__ let message = 'Hello' `
+
+On peut également déclarer plusieurs fonctions à la suite. Le travail à la chaîne commence !
+
+let user = Jacques , age = 23 , message = 'Hello' __
+
+Cependant, il est conseillé pour une meilleure lisibilité de séparer les variables et de les déclarer ligne par ligne. Sans se
+
+__ let user = Jacques
+let age = 23
+let message = 'Hello'__
+
+En nommant une variable, il est critique de suivre les deux régles suivantes :
+
+    Le nom doit contenir uniquement des lettres, des chiffres, ou les symboles $ et _
+    Le premier caractère ne doit pas être un chiffre
+
+SI votre nom contient plusieurs mots, il est conseillé d'utiliser le camelCase. Chaque mots commence avec une majuscule excepté le premier : myVeryLongName. De cette façon on évite que tout explose juste parce qu'on a mis un _ qui fait joli.
+
+__ let userName
+let digit123
+let $
+let _   // tous sont des noms de variables valides. __
+
+Merci pour votre attention, on se retrouve lors de nos prochaines péripéties...
+
+La team Javascript
