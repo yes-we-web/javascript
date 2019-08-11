@@ -9,6 +9,35 @@
 3. **doc-js :** Comporte toutes la documentation concernant JavaScript (Tuto, Informations, Aide, etc...)
 --------------------------------------------------------------------
 
+# Présentation de JavaScript  
+  
+
+## C'est quoi JavaScript?
+JavaScript est un langage de script qui permet d'animer de façon dynamique le contenu d'une page web (ex: animer des images, variables, éxécution de commande par clic,etc.). 
+Comme le langage HTML et CSS, JavaScript fait parti du langage front-end (langage permettant la réalisation "visuelle" d'une page web grâce à un navigateur) mais aussi du back-end (langage lié à l'aspect technique et fonctionnel d'une page web).
+
+
+    
+![Le rôle de l'HTML, le CSS et le JavaScript illustrés](https://miro.medium.com/max/700/0*ZMASD5UBLzXQsrpg) 
+ 
+source : https://moz.com/blog/javascript-seo 
+ 
+## Historique  
+Le JavaScript a été créé en 1995 par Brendan Eich pour le compte Netscape Communications Corporation (une entreprise informatique américaine) sous le nom LiveScript.  
+Inspiré de Java (d'où peut-être son nom par la suite) et d'autres langages, il est néanmoins simplifié pour les débutants.  
+
+En 1997, l'entreprise américaine Oracle dépose le nom "JavaScript".
+
+Le JavaScript fait parti des langages normalisées par l'ECMA International (organisation de normalisation européenne).Le TC-39 est le comité spécifique au sein de l'ECMA qui a permis de rassembler les informations les plus approfondies, détaillées et formalisées sur JavaScript. La specification ECMA-262 contient donc tout ce qui défini la langue aujourd'hui.   
+
+sources: 
+* https://fr.wikipedia.org/wiki/JavaScript#targetText=JavaScript%20est%20un%20langage%20de,exemple)%20de%20Node.js,  
+* https://developer.mozilla.org/fr/docs/Web/JavaScript/Une_réintroduction_à_JavaScript,  
+* https://javascript.info/manuals-specifications,
+* https://javascript.info/intro. 
+
+-------------------------------------------------------------------
+
 # Principaux avantages du _JS_ :
 
 
