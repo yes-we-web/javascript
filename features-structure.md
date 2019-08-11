@@ -71,4 +71,4 @@ __<script src="script.js" async></script>__
 
 Et voilà le travail !
 
-Bon lors de notre prochain rendez-vous papotage on parlera de variables. Nous te sentons déjà im-pa-tient... :smiley: 
+Bon lors de notre prochain rendez-vous papotage on parlera de variables. Nous te sentons déjà im-pa-tient... :smiley:
