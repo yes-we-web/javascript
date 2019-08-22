@@ -2,7 +2,7 @@ Parfois, nous devons effectuer differentes actions en fonction de differentes co
 
 Pour ce faire, nous pouvons utiliser l'operateur 'if' et l'opérateur conditionel '?'.
  
-  # La déclaration "if".
+  #La déclaration "if".
  
  La déclaration "if" évalue une condition entre parenthèse et si le resultat est true, il execute un bloc de code.
  Par exemple:
