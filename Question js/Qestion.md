@@ -116,6 +116,9 @@ Que donne le résultat de cet alert,  alert (1/0);  ?
 -4. Undefined
 
 
+---
+
+
 ## Résponce des questions
 
 
@@ -124,7 +127,6 @@ Que donne le résultat de cet alert,  alert (1/0);  ?
 Il recommandé d'écrire le code JavaScript
 
 -2. Dans un fichier .js séparé
-
 
 
 **Réponse 2**
