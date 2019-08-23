@@ -1,9 +1,11 @@
 ## Question sur les Fonctions JS:
 
+---
 
-**Qestion 1**
 
-Où est-il recommandé d'écrire le code JavaScript ?
+###Qestion 1
+
+**Où est-il recommandé d'écrire le code JavaScript ?**
 
 -1. Dans le head de notre fichier HTML
 
@@ -13,9 +15,9 @@ Où est-il recommandé d'écrire le code JavaScript ?
 
 
 
-**Qestion 2**
+###Qestion 2
 
-Comment lier un fichier script.js externe dans une page HTML ?
+**Comment lier un fichier script.js externe dans une page HTML ?**
 
 -1. <script type="text/javascript" src="script.js"> </script>
 
