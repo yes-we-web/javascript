@@ -19,7 +19,7 @@ Comment lier un fichier script.js externe dans une page HTML ?
 
 -1. <script type="text/javascript" src="script.js"> </script>
 
--2. <javascript content="script.js"> </javascript>
+-2. <java-script content="script.js"> </java-script>
 
 -3. <script http-equiv="text/javascript" src="script.js"> </script>
 
