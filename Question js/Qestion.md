@@ -21,11 +21,9 @@
 
 -1. <script type="text/javascript" src="script.js"> </script>
 
--2. <java-script content="script.js"> </java-script>
+-2. <script http-equiv="text/javascript" src="script.js"> </script>
 
--3. <script http-equiv="text/javascript" src="script.js"> </script>
-
--4. <script type="text/javascript" content="script.js"> </script>
+-3. <script type="text/javascript" content="script.js"> </script>
 
 
 
