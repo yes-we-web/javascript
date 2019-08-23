@@ -1,9 +1,9 @@
-## Question sur les Fonctions JS:
+# Question sur les Fonctions JS:
 
 ---
 
 
-### Qestion 1
+## Qestion 1
 
 **Où est-il recommandé d'écrire le code JavaScript ?**
 
@@ -15,7 +15,7 @@
 
 
 
-### estion 2
+## Qestion 2
 
 **Comment lier un fichier script.js externe dans une page HTML ?**
 
@@ -29,9 +29,9 @@
 
 
 
-**Qestion 3**
+## Qestion 3
 
-Quel opérateur est utilisé pour concaténer des chaînes de caractères ? 
+**Quel opérateur est utilisé pour concaténer des chaînes de caractères ?**
 
 -1. &
 
@@ -43,9 +43,9 @@ Quel opérateur est utilisé pour concaténer des chaînes de caractères ?
 
 
 
-**question 4**
+## Question 4
 
-L'opérateur de comparaison == sert à comparer...
+**L'opérateur de comparaison == sert à comparer...?**
 
 -1. L'égalité en valeur simplement
 
@@ -55,15 +55,15 @@ L'opérateur de comparaison == sert à comparer...
 
 
 
-**question 5**
+## Question 5
 
-Qu'est-ce qu'un booléen en JavaScript ?
+**Qu'est-ce qu'un booléen en JavaScript ?**
 
 
 
-**question 6**
+## Question 6
 
-Comment écrivez-vous « Hello World » dans Une fenêtre modale (une boîte d’alerte) ?
+**Comment écrivez-vous « Hello World » dans Une fenêtre modale (une boîte d’alerte) ?**
 
 -1. let("Hello World");
 
@@ -74,14 +74,16 @@ Comment écrivez-vous « Hello World » dans Une fenêtre modale (une boîte d�
 -4. let alert:("Hello World");
 
 
-**question 7**
 
-Quel est la convertion en nombre de null et undefined ?
+## Question 7
+
+**Quel est la convertion en nombre de null et undefined ?**
 
 
-**question 8**
 
-Comment écrire une condition IF en JavaScript?
+## Question 8
+
+**Comment écrire une condition IF en JavaScript?**
 
 -1. if 'a = 6' 
 
@@ -92,9 +94,10 @@ Comment écrire une condition IF en JavaScript?
 -4. if (a == 6)
 
 
-**question 9**
 
-Quel est le symbole d'une backtiks?
+## Question 9
+
+**Quel est le symbole d'une backtiks?**
 
 -1. " "
 
@@ -105,9 +108,10 @@ Quel est le symbole d'une backtiks?
 -4. ' '
 
 
-**question 10**
 
-Que donne le résultat de cet alert,  alert (1/0);  ?
+## Question 10
+
+**Que donne le résultat de cet alert,  alert (1/0);  ?**
 
 -1. 0
 
@@ -121,76 +125,81 @@ Que donne le résultat de cet alert,  alert (1/0);  ?
 ---
 
 
-## Résponce des questions
+# Résponce des questions
 
 
-**Réponse 1**
 
-Il recommandé d'écrire le code JavaScript
+## Réponse 1
+
+**Il recommandé d'écrire le code JavaScript :**
 
 -2. Dans un fichier .js séparé
 
 
-**Réponse 2**
 
-Pour lier un fichier externe dans notre page HTML, nous utilisons 
-la balise script suivie du type ainsi que la source du fichier.
+## Réponse 2
+
+**Pour lier un fichier externe dans notre page HTML, nous utilisons la balise script suivie du type ainsi que la source du fichier :**
 
 -1.<script type="text/javascript" src="script.js"> </script>
 
 
 
-**Réponse 3**
 
-Pour concaténer des chaînes de caractères on utilise
+## Réponse 3
+
+**Pour concaténer des chaînes de caractères on utilise :**
 
 -4. +
 
 
-**Réponse 4**
 
--1. Le signe == sert à effectuer des comparaisons sur les valeurs simplement, tandis que le 
-signe === sert à comparer l'égalité en valeur et en type.
+## Réponse 4
 
+**Le signe == sert à effectuer des comparaisons sur les valeurs simplement, tandis que le signe === sert à comparer l'égalité en valeur et en type.**
 
-
-**réponse 5**
-
-Un booléen est une valeur binaire qui se traduit soit par la valeur true (vrai) soit par la 
-valeur false (faut).
+-1. L'égalité en valeur simplement
 
 
 
-**réponse 6**
+## Réponse 5
 
-On écrie « Hello World » dans une fenêtre modale de cette manière
+**Un booléen est une valeur binaire qui se traduit soit par la valeur true (vrai) soit par la valeur false (faut).**
+
+
+
+## Réponse 6
+
+**On écrie « Hello World » dans une fenêtre modale de cette manière :**
 
 -2. alert("Hello World");
 
 
 
-**réponse 7**
+## Réponse 7
 
-La conversion en nombre de nul est : 0, 
-tandis que undefined est : Nan
+**La conversion en nombre de nul est : 0, tandis que undefined est : Nan**
 
 
-**réponse 8**
 
-On écrie une condition IF de cette manière 
+## Réponse 8
+
+**On écrie une condition IF de cette manière :**
 
 -4. if (a == 6)
 
 
-**réponse 9**
 
-le symbole d'une backtiks est : 
+## Réponse 9
+
+**Le symbole d'une backtiks est :** 
 
 3. ` `
 
 
-**réponse 10**
 
-le résultat de l' : alert (1/0); est :
+## Réponse 10
+
+**Le résultat de l': alert (1/0); est :**
 
 -2. Infinity
