@@ -3,7 +3,7 @@
 ---
 
 
-###Qestion 1
+### Qestion 1
 
 **Où est-il recommandé d'écrire le code JavaScript ?**
 
@@ -15,7 +15,7 @@
 
 
 
-###Qestion 2
+### estion 2
 
 **Comment lier un fichier script.js externe dans une page HTML ?**
 
