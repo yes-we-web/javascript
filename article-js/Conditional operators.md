@@ -10,26 +10,26 @@ Pour ce faire, nous pouvons utiliser l'operateur 'if' et l'opérateur conditione
 
  **Par exemple:**
 
- '''
+ ' ' '
 
 let year = prompt('In which year was ECMAScript-2015 specification published?', '');
 
 if (year == 2015) alert( 'You are right!' );
 
-'''
+' ' '
 
 Dans l'exemple ci dessus la condition est un simple contrôle d'égalité (année == 2015) mais il peut être beaucoup plus complexe.
 
 Si nous voulons executer plus d'une instruction nous devons envelopper notre bloc de code dans des accolades.
 
- '''
+ ' ' '
 
  if (year == 2015) {
   alert( "That's correct!" );
   alert( "You're so smart!" );
 }
 
-'''
+' ' '
 
 Il est cependant recommander de placer votre bloc de code entre accolades à chaques fois que vous utilisez une instruction "if" 
 même si il y en a qu'une seule car cela ameliore la lisibilité.
