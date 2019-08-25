@@ -5,7 +5,7 @@
 
 ## Nous allons commencer par la fonction alert :
 
-synthax : alert(message);
+<script>synthax : alert(message);</script>
 
 cela affiche un message et met en pause le script.
 
