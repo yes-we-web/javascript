@@ -1,11 +1,8 @@
- ----------------  EN COURS DE MAINTENANCE MERCI DE REVENIR PLUS TARD -----------------
-
-
 # dans ce chapitre nous allons nous familiariser avec les fonctions suivantes : alert prompt et confirm.
 
 ## Nous allons commencer par la fonction alert :
 
-<script>synthax : alert(message);</script>
+synthax : alert(message);
 
 cela affiche un message et met en pause le script.
 
@@ -44,7 +41,8 @@ la fonction confirm affiche une fenêtre modale avec 2 boutons,"ok" et "annuler"
 par exemple : let Wow = confirm("vas-tu jouer à wow classic ?");
 alert (Wow); 
 
-Si l'utilisateur appuie sur ok le résultat sera donc true.
+Si l'utilisateur appuie sur ok le résultat sera donc true, par contre si l'utilisateur appuie sur annuler la réponse sera false.
+
 
 
 Résumé des 3 fonctions que nous venons de voir :
