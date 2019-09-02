@@ -36,28 +36,34 @@ Mais attention quand on effectue une opération le type de résultat devient un 
 
 Exemples :
 
-``` 1) Let test = "3" * 2;
+``` 
+1) Let test = "3" * 2;
 
 console.log(test);
 // 6 est
-la bonne réponse et non pas "6"! ```
+la bonne réponse et non pas "6"! 
+```
 
 Quand on effectue une opération le type sera toujours un nombre !
 
-``` 2) Let test = "3" * "2";
+``` 
+2) Let test = "3" * "2";
 
 console.log(test);
-// 6 ```
+// 6 
+```
 
 Vous les gars : Mais attends, je ne comprends pas le résultat n'est pas censé retourner en "strings" ?
 Nous : Et non ATTENTION ! On a effectué une MULTIPLICATION et NON une ADDITION, la seule capable de concaténer ! Du coup le résultat sera un Number.
 
 Si on avait fait :
 
-``` Let test = "3" + "2"
+``` 
+Let test = "3" + "2"
 
 console.log(test);
-// 32 ```
+// 32 
+```
 
 CONCATÉNATION car il y a présence du "+".
 
@@ -66,10 +72,12 @@ Nous: Très simple IL NE FAUT PAS qu'il ait présence de "strings" lors d'une op
 
 Exemple :
 
-``` Let test = 3 + 2;
+``` 
+Let test = 3 + 2;
 
 console.log(test);
-// 5 ```
+// 5
+```
 
 Le résultat retourné est 5 de type "Number".
 
@@ -77,10 +85,12 @@ Priorité : Attention (WARNING !!!) il y a un ordre de priorité quand le code e
 
 Exemple :
 
-``` Let test = "4" + 2 - 2;
+``` 
+Let test = "4" + 2 - 2;
 
 console.log(test);
-// 40 ```
+// 40 
+```
 
 Ici l'ordinateur a compris qu'il y a présence de "Strings", d'une Concaténation avec le "+" mais suivi d'une soustraction.
 
@@ -88,9 +98,11 @@ Vous les gars : Mais comment l'ordinateur est-il arrivé au résultat de 40 ? (V
 
 Nous: N'oubliez pas que l'ordinateur lit toujours de haut en bas et de gauche à droite, ce qui nous donne :
 
-``` "4" + 2 = "42" // Une concaténation est effectuée.
+``` 
+"4" + 2 = "42" // Une concaténation est effectuée.
 
-"42" - 2 = 40 // une soustraction est effectuée. ```
+"42" - 2 = 40 // une soustraction est effectuée. 
+```
 
 Le "-" de la soustraction ne permet pas de concaténer. A ce stade vous l'avez compris!
 Nous résumons :
