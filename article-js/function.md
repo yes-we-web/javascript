@@ -1,6 +1,6 @@
-* Function/Fonction.
+# Function/Fonction.
 
-** Introduction.
+## Introduction.
 
 `Hello world`. Nous connaissons déjà des fonctions intégrées pour envoyer un message à l'utilisateur :
 alert(`renvoie message`), prompt(`demande de répondre par un message`) and confirm(`renvoie une question`)
@@ -15,7 +15,7 @@ A vos crayons : trouver 3 autres exemples d'action (n'hésitez pas à aller cher
 
 
 
-** Création de la fonction.
+## Création de la fonction.
 
 On crée la fonction de cette manière :
 function functionName (paramètres, séparé par des virgules si plusieurs) {
@@ -32,13 +32,13 @@ Par exemple :
 
 
 
-** Appelle de la fonction
+## Appelle de la fonction
 
 
 
 functionName
 
-**
+***
 
 vous pouvez coder des fonctions dans des fonctions
 
