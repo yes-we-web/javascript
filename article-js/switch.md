@@ -1,7 +1,7 @@
 # SWITCH
 
 
-### intro :
+### Introduction :
 
 Le switch remplace le if, en === (strictement égale).
 L'instruction **switch** commence par évaluer l'expression . Si une correspondance est trouvée, le programme exécute l'instructions associée. Si plusieurs correspondent, le premier sera sélectionné (même s'ils sont différents les uns des autres).
@@ -40,26 +40,26 @@ switch (expression) {
 }
 ```
 
-
-### expression :
-
+```
+expression :
+```
 Une expression à comparer avec chacune des clause **case**.
-                                                 
-### case expressionN (facultatif)
-
+```                                                 
+case expressionN (facultatif) :
+```
 Une clause qu'on compare avec **expression**.
-
-### default (facultatif)
-
+```
+default (facultatif) :
+```
 Une clause executée si aucune correspondance n'est trouvée avec la clause **case** (et/ou s'il n'y a pas de **break** pour les clauses **case** précédentes).   
-    
-### instructionsN
-
+```   
+instructionsN :
+```
 Les instructions à exécuter lorsque **l'expression** correspond  au cas présenté pour cette clause.    
-    
-### instructions_def
-    
-   Les instructions à exécuter si **l'expression** ne correspond à aucun cas de figure précédemment décrit.
+```    
+instructions_def :
+```   
+Les instructions à exécuter si **l'expression** ne correspond à aucun cas de figure précédemment décrit.
 
 
 ![switch-js](https://www.tutorialspoint.com/javascript/images/switch_case.jpg)
