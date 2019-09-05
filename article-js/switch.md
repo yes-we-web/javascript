@@ -2,6 +2,13 @@
 
 
 Le switch remplace le if, en === (strictement égale).
+L'instruction **switch** commence par évaluer l'expression . Si une correspondance est trouvée, le programme exécute l'instructions associée. Si plusieurs correspondent, le premier sera sélectionné (même s'ils sont différents les uns des autres).
+
+Le programme recherche une clause **case** dont l'expression est évaluée avec la même valeur que celle d'entrée au sens de l'égalité stricte. Si une telle clause est trouvée, les instructions associées sont exécutées. Si aucune clause **case** n'est trouvée, le programme recherche la clause optionnelle **default** et si elle existe, les instructions correspondantes sont exécutées. Si cette clause optionnelle n'est pas utilisée, le programme continue son exécution après l'instruction **switch**. Par convention, la clause **default** est utilisée en dernière mais cela n'est pas nécessaire.
+
+L'instruction **break** peut optionnellement être utilisée pour chaque cas et permet de s'assurer que seules les instructions associées à ce cas seront exécutées. Si **break** n'est pas utilisé, le programme continuera son exécution avec les instructions suivantes .
+
+
 
 ### intro :
 
@@ -38,8 +45,7 @@ switch (expression) {
 ### expression :
 
 Une expression à comparer avec chacune des clause **case**.
-                                                    
-
+                                                 
 ### case expressionN (facultatif)
 
 Une clause qu'on compare avec **expression**.
@@ -102,5 +108,7 @@ switch (y) {
 }
 ``` 
 1. Pour 0, 1 la première **alert** passe.
+
 2. Pour 2 la deuxième **alert** passe.
+
 3.Mais pour 3, le résultat de **prompt** est une chaîne **"3"**, qui n'est pas strictement égale **===** au nombre 3. Nous avons donc un code mort **case 3**! La **default** variante va s'exécuter.
