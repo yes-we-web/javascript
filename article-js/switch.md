@@ -4,7 +4,7 @@
 Le switch remplace le if, en === (strictement égale).
 
 intro :
-switch permet de rendre plus lisible une succession de comparaisons et par ce biais remplace le **if** avec une egalité stricte "===" (valeur et type).
+switch permet de rendre plus lisible une succession de comparaisons et par ce biais remplace le **if** avec une égalité stricte "===" (valeur et type).
 ### Syntaxe :
 ```
 switch (x) {
@@ -16,8 +16,9 @@ case  'value1':
   [break]
  }
 ```
+[swith-js](https://www.tutorialspoint.com/javascript/images/switch_case.jpg)
 
-### Groupement de condition :
+### Groupement de conditions :
 
 Si le code est le même pour plusieurs conditions alors on peut faire un regroupement de "case" et voici la syntaxe.
 
@@ -35,7 +36,7 @@ switch (y) {
     break;
  }
  ```
- ### Type matters :
+ ### le Type compte beaucoup :
  
  ```
  let arg = prompt ("entre une valeur");
