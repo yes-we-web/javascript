@@ -9,15 +9,44 @@ switch permet de rendre plus lisible une succession de comparaisons et par ce bi
 
 ### Syntaxe :
 ```
-switch (x) {
-case  'valeur1': //(x === 'valeur1')
-  ... //code
-  [break] //arrêt si "condition" est vérifiée
- default: //else
-  ... //code optionnel
-  [break]
- }
+switch (expression) {
+  case valeur1:
+    // Instructions à exécuter lorsque le résultat
+    // de l'expression correspond à valeur1
+    instructions1;
+    [break;]
+  case valeur2:
+    // Instructions à exécuter lorsque le résultat
+    // de l'expression correspond à valeur2
+    instructions 2;
+    [break;]
+  ...
+  case valeurN:
+    // Instructions à exécuter lorsque le résultat
+    // de l'expression à valeurN
+    instructionsN;
+    [break;]
+  [default:
+    // Instructions à exécuter lorsqu'aucune des valeurs
+    // ne correspond 
+    instructions_def;
+    [break;]]
+}
 ```
+
+
+### expression
+    Une expression à comparer avec chacune des clause ```case```.
+### case expressionN (facultatif)
+    Une clause qu'on compare avec ```expression```.
+### default (facultatif)
+    Une clause exécutée si aucune correspondance n'est trouvée avec les clause ```case``` (et/ou s'il n'y a pas de ```break``` pour les clauses ```case``` précédentes).
+### instructionsN
+    Les instructions à exécuter lorsque l'```expression``` correspond au cas présenté pour cette clause.
+### instructions_def
+    Les instructions à exécuter si l'```expression``` ne correspond à aucun cas de figure précédemment décrit.
+
+
 ![switch-js](https://www.tutorialspoint.com/javascript/images/switch_case.jpg)
 
 ### Groupement de conditions :
