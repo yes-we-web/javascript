@@ -1,6 +1,8 @@
 # SWITCH
 
 
+### intro :
+
 Le switch remplace le if, en === (strictement égale).
 L'instruction **switch** commence par évaluer l'expression . Si une correspondance est trouvée, le programme exécute l'instructions associée. Si plusieurs correspondent, le premier sera sélectionné (même s'ils sont différents les uns des autres).
 
@@ -10,9 +12,6 @@ L'instruction **break** peut optionnellement être utilisée pour chaque cas et 
 
 
 
-### intro :
-
-switch permet de rendre plus lisible une succession de comparaisons et par ce biais remplace le **if** avec une égalité stricte "===" (valeur et type).
 
 ### Syntaxe :
 ```
