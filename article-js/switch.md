@@ -3,7 +3,8 @@
 
 Le switch remplace le if, en === (strictement égale).
 
-intro :
+### intro :
+
 switch permet de rendre plus lisible une succession de comparaisons et par ce biais remplace le **if** avec une égalité stricte "===" (valeur et type).
 
 ### Syntaxe :
