@@ -3,7 +3,10 @@
 ## Introduction.
 
 `Hello world`. Nous connaissons déjà des fonctions intégrées pour envoyer un message à l'utilisateur :
-"alert"(`renvoie un message`), "prompt"(`demande de répondre par un message`) et "confirm"(`renvoie une question`).
+
+* "alert"(`renvoie un message`), 
+* "prompt"(`demande de répondre par un message`),
+* "confirm"(`renvoie une question`).
 
 Mais on peut en créer de nombreuses autres.
 
@@ -18,9 +21,11 @@ A vos crayons : trouver 3 autres exemples d'action (n'hésitez pas à aller cher
 ## Création de la fonction.
 
 On crée la fonction de cette manière :
+```
 function functionName (paramètres, séparé par des virgules si plusieurs) {
         le code de la fonction ;
 }
+```
 
 Attention : le nom de la fonction doit décrire l'action, donc il faut mieux utiliser des verbes afin d'être le plus explicite possible.
 Par exemple :
@@ -66,7 +71,7 @@ function sum(a,b) {
 }
 ``` 
 
-Il peut se placer ou l'on veut et on peut en mettre plusieurs. Si une fonction avec un `return` vide ou un sans `return` retourne une répose `undefined`.
+Il peut se placer ou l'on veut et on peut en mettre plusieurs. Si une fonction avec un `return` vide ou un sans `return` retourne une réponse `undefined`.
 
 **Quizz :**
 
@@ -82,7 +87,9 @@ return (
   "toto");
 ```
 
-La réponse est la deuxième car dans le premier cas , il considère que c'est un retour "vide" donc `undefined` car il ne voit rien sur la même ligne, alors que le deuxième cas la parenthèse est présente.
+**Réponse :** 
+
+la deuxième car dans le premier cas , il considère que c'est un retour "vide" donc `undefined` car il ne voit rien sur la même ligne, alors que le deuxième cas la parenthèse est présente.
 
 ## A noter.
 
@@ -99,9 +106,13 @@ let bonjour = function () {
 };
 ```
 
-**QUIZZ** chercher l'erreur.
+**Quizz :** 
 
-**Réponse** : et non!! il n'y a pas d'erreur. Etant que la fonction est déclarée après la déclaration de variable, il faudra penser à finir cette variable par les ';' comme d'habitude de pro, normal non ?
+Chercher l'erreur.
+
+**Réponse :**
+
+Et non!! il n'y a pas d'erreur. Etant donné que la fonction est déclarée après la déclaration de variable, il faudra penser à finir cette variable par les ';' comme d'habitude de pro, normal non ?
 
 
 ### Fonction fléchée
@@ -110,5 +121,5 @@ Enfin une fonction écrite simplement.
 ```
 let bonjour = () => alert( "bonjour" );
 ```
-c'est une écrire simplifiée pour une fonction assez courte. Il suffit de s'y habituer.
+c'est une syntaxe simplifiée pour une fonction assez courte. Il suffit de s'y habituer.
 
