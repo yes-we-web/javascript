@@ -79,6 +79,10 @@ switch (y) {
  ```
  ### le Type compte beaucoup :
  
+ Le contrôle d'égalité est toujours **strict**. Les valeurs doivent être du même type pour correspondre.
+ 
+ Par exemple, considérons le code:
+ 
  ```
  let arg = prompt ("entre une valeur");
  switch (arg) {
@@ -97,3 +101,6 @@ switch (y) {
     alert( 'Une valeur inconnue' );
 }
 ``` 
+1. Pour 0, 1 la première **alert** passe.
+2. Pour 2 la deuxième **alert** passe.
+3.Mais pour 3, le résultat de **prompt** est une chaîne **"3"**, qui n'est pas strictement égale **===** au nombre 3. Nous avons donc un code mort **case 3**! La **default** variante va s'exécuter.
