@@ -35,16 +35,26 @@ switch (expression) {
 ```
 
 
-### expression
-    Une expression à comparer avec chacune des clause ```case```.
+### expression :
+
+Une expression à comparer avec chacune des clause **case**.
+                                                    
+
 ### case expressionN (facultatif)
-    Une clause qu'on compare avec ```expression```.
+
+Une clause qu'on compare avec **expression**.
+
 ### default (facultatif)
-    Une clause exécutée si aucune correspondance n'est trouvée avec les clause ```case``` (et/ou s'il n'y a pas de ```break``` pour les clauses ```case``` précédentes).
+
+Une clause executée si aucune correspondance n'est trouvée avec la clause **case** (et/ou s'il n'y a pas de **break** pour les clauses **case** précédentes).   
+    
 ### instructionsN
-    Les instructions à exécuter lorsque l'```expression``` correspond au cas présenté pour cette clause.
+
+Les instructions à exécuter lorsque **l'expression** correspond  au cas présenté pour cette clause.    
+    
 ### instructions_def
-    Les instructions à exécuter si l'```expression``` ne correspond à aucun cas de figure précédemment décrit.
+    
+   Les instructions à exécuter si **l'expression** ne correspond à aucun cas de figure précédemment décrit.
 
 
 ![switch-js](https://www.tutorialspoint.com/javascript/images/switch_case.jpg)
