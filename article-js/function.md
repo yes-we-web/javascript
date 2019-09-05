@@ -43,7 +43,7 @@ function nomFonction(paramètres) {
 Pour une bonne recette, il faut :
 * Le mot clé `function` arrive en premier,
 * Le nom de la fonction que l'on veut créer,
-* La liste des paramètres entre parenthèses (si plusieurs paramètres les séparés avec une virgule ,),
+* La liste des paramètres entre parenthèses (si plusieurs paramètres les séparés avec une virgule ','),
 * Enfin le code de la fonction, appelée "corps de la fonction" avec des acolades {}.
 
 ## Exécutation de la fonction:
@@ -83,3 +83,32 @@ return (
 ```
 
 La réponse est la deuxième car dans le premier cas , il considère que c'est un retour "vide" donc `undefined` car il ne voit rien sur la même ligne, alors que le deuxième cas la parenthèse est présente.
+
+## A noter.
+
+Il possible de créer une fonction pour 1 seule utilisation car, dans certains cas, elle rend le code plus lisible.
+
+
+## Fonction expressions et fléchées.
+
+### Fonction expression
+
+```
+let bonjour = function () {
+  alert( "bonjour" );
+};
+```
+
+**QUIZZ** chercher l'erreur.
+
+**Réponse** : et non!! il n'y a pas d'erreur. Etant que la fonction est déclarée après la déclaration de variable, il faudra penser à finir cette variable par les ';' comme d'habitude de pro, normal non ?
+
+
+### Fonction fléchée
+
+Enfin une fonction écrite simplement.
+```
+let bonjour = () => alert( "bonjour" );
+```
+c'est une écrire simplifiée pour une fonction assez courte. Il suffit de s'y habituer.
+
