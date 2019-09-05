@@ -35,16 +35,26 @@ switch (expression) {
 ```
 
 
-### expression
-    Une expression à comparer avec chacune des clause ```case```.
+### expression :
+
+Une expression à comparer avec chacune des clause **case**.
+                                                    
+
 ### case expressionN (facultatif)
-    Une clause qu'on compare avec ```expression```.
+
+Une clause qu'on compare avec **expression**.
+
 ### default (facultatif)
-    Une clause exécutée si aucune correspondance n'est trouvée avec les clause ```case``` (et/ou s'il n'y a pas de ```break``` pour les clauses ```case``` précédentes).
+
+Une clause executée si aucune correspondance n'est trouvée avec la clause **case** (et/ou s'il n'y a pas de **break** pour les clauses **case** précédentes).   
+    
 ### instructionsN
-    Les instructions à exécuter lorsque l'```expression``` correspond au cas présenté pour cette clause.
+
+Les instructions à exécuter lorsque **l'expression** correspond  au cas présenté pour cette clause.    
+    
 ### instructions_def
-    Les instructions à exécuter si l'```expression``` ne correspond à aucun cas de figure précédemment décrit.
+    
+   Les instructions à exécuter si **l'expression** ne correspond à aucun cas de figure précédemment décrit.
 
 
 ![switch-js](https://www.tutorialspoint.com/javascript/images/switch_case.jpg)
@@ -69,6 +79,10 @@ switch (y) {
  ```
  ### le Type compte beaucoup :
  
+ Le contrôle d'égalité est toujours **strict**. Les valeurs doivent être du même type pour correspondre.
+ 
+ Par exemple, considérons le code:
+ 
  ```
  let arg = prompt ("entre une valeur");
  switch (arg) {
@@ -87,3 +101,6 @@ switch (y) {
     alert( 'Une valeur inconnue' );
 }
 ``` 
+1. Pour 0, 1 la première **alert** passe.
+2. Pour 2 la deuxième **alert** passe.
+3.Mais pour 3, le résultat de **prompt** est une chaîne **"3"**, qui n'est pas strictement égale **===** au nombre 3. Nous avons donc un code mort **case 3**! La **default** variante va s'exécuter.
