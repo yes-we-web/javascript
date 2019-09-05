@@ -54,7 +54,9 @@ Pour une bonne recette, il faut :
 ## Exécutation de la fonction:
 
 Pour exécuter une fonction, il faut l'appeler :
+
 Hey  :bangbang: Yes We Web  :bangbang:
+
 Oui , c'est moi  :innocent:
 ```
 YesWeWeb(paramètre de l'on souhaite);
