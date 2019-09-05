@@ -10,7 +10,7 @@ switch permet de rendre plus lisible une succession de comparaisons et par ce bi
 ### Syntaxe :
 ```
 switch (x) {
-case  'value1':
+case  'valeur1': //(x === 'valeur1')
   ... //code
   [break] //arrêt si "condition" est vérifiée
  default: //else
