@@ -5,6 +5,7 @@ Le switch remplace le if, en === (strictement égale).
 
 intro :
 switch permet de rendre plus lisible une succession de comparaisons et par ce biais remplace le **if** avec une égalité stricte "===" (valeur et type).
+
 ### Syntaxe :
 ```
 switch (x) {
@@ -55,6 +56,4 @@ switch (y) {
   default:
     alert( 'Une valeur inconnue' );
 }
-```
-   
- 
+``` 
