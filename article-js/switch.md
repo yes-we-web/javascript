@@ -17,7 +17,7 @@ case  'value1':
   [break]
  }
 ```
-[swith-js](https://www.tutorialspoint.com/javascript/images/switch_case.jpg)
+![switch-js](https://www.tutorialspoint.com/javascript/images/switch_case.jpg)
 
 ### Groupement de conditions :
 
