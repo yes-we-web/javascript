@@ -48,6 +48,38 @@ Pour déclarer sa fonction, il faut :
 
 ## Exécutation de la fonction:
 
-Pour exécuter une fonction, il faut l'appelé : `nomFonction(paramètre de l'ont souhaite);`
+Pour exécuter une fonction, il faut l'appeler : `nomFonction(paramètre de l'on souhaite);`
 
- 
+## Variables locales et externes:
+
+On peut déclarer une variable ( avec let ) dans une fonction ou alors en dehors de celle-ci. Dans le cas de la locale, elle ne fonctionnera que dans la fonction.
+
+Pour une bonne pratique des variables il est conseillé de minimiser les variables externes, le code moderne utilise plus de variables locales qu'externes.
+
+## Retourner une valeur:
+
+Dans une fonction, la notion de `return` permet de retourner le résultat.
+```
+function sum(a,b) {
+	let result = a + b;
+	return result;
+}
+``` 
+
+Il peut se placer ou l'on veut et on peut en mettre plusieurs. Si une fonction avec un `return` vide ou un sans `return` retourne une répose `undefined`.
+
+**Quizz :**
+
+Quel est le bon style entre :
+```
+return
+("toto");
+```
+ou
+
+```
+return (
+  "toto");
+```
+
+La réponse est la deuxième car dans le premier cas , il considère que c'est un retour "vide" donc `undefined` car il ne voit rien sur la même ligne, alors que le deuxième cas la parenthèse est présente.
