@@ -111,4 +111,4 @@ switch (y) {
 
 2. Pour 2 la deuxième **alert** passe.
 
-3. Mais pour 3, le résultat de **prompt** est une chaîne **"3"**, qui n'est pas strictement égale **===** au nombre 3. Nous avons donc un code mort **case 3**! La **default** variante va s'exécuter.
+3. Mais pour 3, le résultat de **prompt** est une chaîne **"3"**, qui n'est pas strictement égale **===** au nombre 3. Nous avons donc un code non-exécutable **case 3**! La clause **default** va s'exécuter.
