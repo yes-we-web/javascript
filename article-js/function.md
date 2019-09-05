@@ -31,14 +31,23 @@ Par exemple :
     "check…" – vérifier quelque chose et retourner la réponse en "boolean" etc....
 
 
+## Déclaration de la fonction:
 
-## Appelle de la fonction
+syntaxe:
+```
+function nomFonction(paramètres) {
+	// corps de la fonction (code)
+}
+```
 
+Pour déclarer sa fonction, il faut :
+* Le mot clé `function` arrive en premier.
+* Le nom de la fonction que l'on veut créer.
+* La liste des paramètres entre parenthèses (si plusieurs paramètres les séparés avec une virgule ,).
+* Enfin le code de la fonction, appelée "corps de la fonction" avec des acolades {}.
 
+## Exécutation de la fonction:
 
-functionName
+Pour exécuter une fonction, il faut l'appelé : `nomFonction(paramètre de l'ont souhaite);`
 
-***
-
-vous pouvez coder des fonctions dans des fonctions
-
+ 
