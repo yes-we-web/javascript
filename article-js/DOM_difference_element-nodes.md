@@ -8,7 +8,7 @@ Un élément représente toute les Balises HTML ou tous autre éléments dans un
 
 Un nodes représente tous ce qu'il y a dans un DOM ( redirection vers "défition_de_nodes.js" pour plus d'informations sur les Noeux ).
 
-(https://imgflip.com/i/3azgzj)
+![meme Node or Element](https://imgflip.com/i/3azgzj.jpg)
 
 ### Général Informations
 
