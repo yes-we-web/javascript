@@ -16,7 +16,7 @@ On peut utiliser un Nodes pour sélectionner un élément, mais un élément est
 
 Les nodes & Element peuvent avoir des liasons avec leur type égaux (nodes / element) proche ou éloigner (redirection vers "liaison_familiale.js" pour plus d'informations sur les Liaisons).
 
-#__*Présentation des différence entre Element & Nodes*__
+# __*Présentation des différence entre Element & Nodes*__
 
 * Element = Blue
 * Nodes = La totalité
