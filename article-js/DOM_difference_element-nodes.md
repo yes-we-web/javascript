@@ -16,4 +16,4 @@ On peut utiliser un Nodes pour sélectionner un élément, mais un élément est
 
 Les nodes & Element peuvent avoir des liasons avec leur nodes / element proche ou éloigner ( redirection vers "liaison_familiale.js" pour plus d'informations sur les Liaisons ).
 
-(img)
+![présentation des différence](img/image-présentation.png)
