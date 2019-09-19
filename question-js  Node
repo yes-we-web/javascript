@@ -1,0 +1,72 @@
+             # Node, élément de l'arborescence d'un document HTML 
+             
+             
+*  Node représente un noeud dans l'arborescence des éléments qui composent une page HTML. On peut créer un Node, lui ajouter des sous-éléments, et l'intégrer à un autre Node de l'arborescence. On peut aussi accéder à un noeud quelconque de l'arborescence.            
+
+                   ## Attributs de node:
+                   
+   *  Les attributs de Node sont d'autres Nodes, et les caractéristiques propres au noeud tel que le nom de balise.
+Propriétés
+
+
+    * DOMString nodeType
+    Catégorie de noeud: élément, commentaire, texte, etc.
+
+    * DOMString nodeValue
+    La valeur du noeud lorsque cela à un sens. Tous les noeuds n'ont pas de valeur, dans ce cas, vaut null.
+
+    * NamedNodeMap attributes
+    Liste des attributs du noeud. Lecture seule.
+    
+    ### Atrributs qui sont d'autres noeuds
+    
+      Ces attributs sont en lecture seule, mais ils peuvent changer par l'utilisation de méthodes pour ajouter ou supprimer des noeuds. Ils ont la valeur null si le noeud correspondant n'existe pas.
+
+    * Node parentNode
+    Le noeud qui contient ce noeud. Par exemple <table> pour le noeud <tr>. Le noeud Document n'a pas de parent ainsi que quelques noeuds particuliers.
+
+    * NodeList childNodes
+    Liste de tous les noeuds directement contenus (et non les noeuds qu'ils contiennent eux-mêmes). S'il n'y a pas de noeuds contenu, la valeur est une NodeList vide (et non pas null).
+
+    * Node firstChild
+    Premier élément contenu dans le noeud.
+
+    * Node lastChild
+    Dernier élément dans la liste des noeuds directement contenus.
+
+    * Node previousSibling
+    Noeud précédent dans la liste de noeuds de même niveau, dont fait partie ce noeud.
+
+    * Node nextSibling
+    Le successeur de ce noeud.
+    
+    ## Méthodes de Node
+    
+    
+    Elles permettent de créer un document, ou de le modifier.
+
+    * Node appendChild(Node ajouté)
+    Ajoute un noeud à la liste des noeuds enfants.
+
+    * Node cloneNode(Boolean)
+    Crée une copie du noeud, avec ses attributs. Les noeuds contenus sont copiés aussi si l'argument est true, sinon seul le noeud est copié. Ce nouveau noeud est détaché de l'arborescence. Il n'a pas de parent. Si l'argument est true, cela équivaud à détacher une branche de l'arborescence.
+
+    * Boolean hasAttributes()
+    Retourne true ou false, selon qu'il a des attributs ou non.
+
+    * Boolean hasChildNodes()
+    Retourne true ou false selon qu'il contient d'autres noeuds ou non.
+
+    * Node insertBefore(Node inséré, Node ici)
+    Insère le premier noeud en argument avant le second. Eventuellement le nouveau noeud prend la place dans firstChild. En retour, retourne le noeud inséré (ses attributs de noeuds tels que parentNode, etc. ont changé).
+    Il s'agit d'un déplacement: si le noeud inséré figurait quelque part dans l'arborescence, il y est supprimé.
+    Si le noeud inséré est une branche, c'est la branche entière qui est insérée (et supprimée de là où elle existait).
+
+    * Node removeChild(Node supprimé)
+    Supprimer un noeud ou une branche. Retourne l'élément supprimé.
+
+    * Node replaceChild(Node nouveau, Node ancien)
+    Remplace le second argument par le premier. Retourne le Node remplacé mais des attributs tel que parentNode sont changés.
+
+ 
+               
