@@ -18,7 +18,7 @@ Les nodes & Element peuvent avoir des liasons avec leur type égaux (nodes / ele
 
 #__*Présentation des différence entre Element & Nodes*__
 
-*Element* = Blue
-*Nodes* = Orange
+* Element = Blue
+* Nodes = La totalité
 
 ![présentation des différence](img/image-présentation.png)
