@@ -14,6 +14,11 @@ Un nodes représente tous ce qu'il y a dans un DOM ( redirection vers "défition
 
 On peut utiliser un Nodes pour sélectionner un élément, mais un élément est un #NodesElements !
 
-Les nodes & Element peuvent avoir des liasons avec leur nodes / element proche ou éloigner ( redirection vers "liaison_familiale.js" pour plus d'informations sur les Liaisons ).
+Les nodes & Element peuvent avoir des liasons avec leur type égaux (nodes / element) proche ou éloigner (redirection vers "liaison_familiale.js" pour plus d'informations sur les Liaisons).
+
+#__*Présentation des différence entre Element & Nodes*__
+
+*Element* = Blue
+*Nodes* = Orange
 
 ![présentation des différence](img/image-présentation.png)
